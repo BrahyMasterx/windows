@@ -3,15 +3,15 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10l"
+      VERSION: "11"
       LANGUAGE: "Spanish"
       USERNAME: "pc"
       PASSWORD: "pc2025"
       REGION: "es-ES"
       KEYBOARD: "es-ES"
-      RAM_SIZE: "4G"
-      CPU_CORES: "2"
-      DISK_SIZE: "32G"
+      RAM_SIZE: "8G"
+      CPU_CORES: "4"
+      DISK_SIZE: "64G"
       DISABLE_VIRTIO: "true"
       SKIP_TPM_CHECK: "true"
     devices:
